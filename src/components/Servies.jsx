@@ -1,4 +1,4 @@
-function  Servies  () {
+function Servies() {
 
 
   return (
@@ -6,9 +6,9 @@ function  Servies  () {
 
 
 
-<div className="services">
-  <img src="/src/assets/Images/our-services.png" alt="Our Services" />
-</div>
+      <div className="services">
+        <img src="/assets/Images/our-services.png" alt="Our Services" />
+      </div>
 
 
 
@@ -19,7 +19,7 @@ function  Servies  () {
 
 
 
-   
+
     </>
   )
 }

@@ -5,10 +5,10 @@ function Navbar() {
     <>
       <div className="contanier">
         <div class="header-top">
-  <img className="semiconiclogo" src="/src/assets/Images/11111.png" />
-</div>
+          <img className="semiconiclogo" src="/assets/Images/11111.png" />
+        </div>
 
-      
+
       </div>
 
       <nav className="navbar">
@@ -17,15 +17,15 @@ function Navbar() {
 
             {/* HOME */}
             <li>
-              <NavLink 
-                to="/" 
+              <NavLink
+                to="/"
                 className={({ isActive }) => isActive ? "active-link" : ""}
               >Home</NavLink>
             </li>
 
             {/* ABOUT */}
             <li>
-              <NavLink 
+              <NavLink
                 to="/about"
                 className={({ isActive }) => isActive ? "active-link" : ""}
               >About Us</NavLink>
@@ -33,7 +33,7 @@ function Navbar() {
 
             {/* SEGMENT DROPDOWN */}
             <li className="dropdown">
-              <NavLink 
+              <NavLink
                 to="/Segment"
                 className={({ isActive }) => isActive ? "active-link" : ""}
               >Segment ▾</NavLink>
@@ -60,19 +60,19 @@ function Navbar() {
 
             {/* LINE CARD */}
             <li>
-              <NavLink 
+              <NavLink
                 to="/linecard"
                 className={({ isActive }) => isActive ? "active-link" : ""}
               >Line Card</NavLink>
             </li>
 
             {/* SMPS DROPDOWN */}
-          <li className="dropdown">
-  <NavLink to="/Smc">SMPS ▾</NavLink>
-  <ul className="dropdown-menu">
-    <li><NavLink to="/smc">SMC</NavLink></li>
-  </ul>
-</li>
+            <li className="dropdown">
+              <NavLink to="/Smc">SMPS ▾</NavLink>
+              <ul className="dropdown-menu">
+                <li><NavLink to="/smc">SMC</NavLink></li>
+              </ul>
+            </li>
 
 
             <li><NavLink to="/Research" className={({ isActive }) => isActive ? "active-link" : ""}>Research & Development</NavLink></li>
@@ -86,17 +86,17 @@ function Navbar() {
 
 
           </ul>
-                  <li className="nav-social">
-  <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-    <i className="fab fa-facebook-f"></i>
-  </a>
-  <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-    <i className="fab fa-twitter"></i>
-  </a>
-  <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
-    <i className="fab fa-youtube"></i>
-  </a>
-</li>
+          <li className="nav-social">
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-youtube"></i>
+            </a>
+          </li>
         </div>
 
       </nav>
